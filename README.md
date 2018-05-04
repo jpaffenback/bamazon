@@ -17,11 +17,11 @@ an item id, the product name and price. The user will be asked to provide the id
  ###Screenshot of MySQL database
 
 ![Image of database]
-(/bamazon/SQL.JPG)
+(/SQL.png)
 
   ###Screenshot of Storefront
 
 ![Image of storefront]
-(/bamazon/storefront.JPG)
+(/storefront.png)
 
 
