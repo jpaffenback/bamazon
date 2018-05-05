@@ -16,12 +16,10 @@ an item id, the product name and price. The user will be asked to provide the id
 
  ### Screenshot of MySQL database
 
-![Image of database]
-(./SQL.jpg)
+![sql](https://user-images.githubusercontent.com/32781426/39663820-e948f5e2-5047-11e8-8800-a162d43ae86a.JPG)
 
   ### Screenshot of Storefront
 
-![Image of storefront]
-(./storefront.jpg)
+![storefront](https://user-images.githubusercontent.com/32781426/39663821-ee8b5590-5047-11e8-8fea-6b258da04424.JPG)
 
 
