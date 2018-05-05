@@ -1,10 +1,10 @@
 # Bamazon
 
-##Description
+## Description
 
 This app uses the inquirer and mysql npm packages to create a command line store front linked to a backend database (MySQL).
 
-##Using
+## Using
 
 When first loaded, the user will see all items currently available in the store. They should see 
 an item id, the product name and price. The user will be asked to provide the id that corresponds
@@ -12,14 +12,14 @@ an item id, the product name and price. The user will be asked to provide the id
 
  After the purchase is made, the total price will be reflected as well as the change being reflected in the database.
 
- ##Screenshots
+ ## Screenshots
 
- ###Screenshot of MySQL database
+ ### Screenshot of MySQL database
 
 ![Image of database]
 (./SQL.jpg)
 
-  ###Screenshot of Storefront
+  ### Screenshot of Storefront
 
 ![Image of storefront]
 (./storefront.jpg)
