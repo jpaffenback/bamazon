@@ -48,7 +48,7 @@ function start(){
         var quantity = input.units;
 
         var search = "SELECT * FROM products WHERE ?";
-        connection.query(search, {item_id:item}, function(err, res){
+        connection.query(search, {item_id: item}, function(err, res){
             if (err) throw err;
             // if (data.length === 0) {
             //     console.log("Invalid ID, please make another selection");
@@ -56,14 +56,14 @@ function start(){
             // } else {
             //     var productData = data[0];
 
-                if (quantity <= productData.stock_quantity){
+                if (quantity <= products.stock_quantity){
                     console.log("Order placed, On its way shortly");
                     var updateSearch = "UPDATE products SET stock_quantity = " + 
-                    (productData.stock_quantity - quantity) + ' WHERE item_id = ' + item;
+                    (products.stock_quantity - quantity) + ' WHERE item_id = ' + item;
 
                     connection.query(updateSearch, function(err, res){
                         if (err) throw err;
-                        console.log("Your order has been placed for a total of" + productData.price * quantity);
+                        console.log("Your order has been placed for a total of" + products.price * quantity);
                         console.log("You can expect to receive your order shortly")
 
                     })
